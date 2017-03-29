@@ -38,6 +38,8 @@ body{
 	color: white;
 	width: 25%;
 	float: left;
+	padding: 0 5px;
+	box-sizing: border-box;
 }
 
 .raceInfo span{
@@ -45,6 +47,10 @@ body{
 	font-weigh: normal;
 	font-size: 18px;
 	color: white;
+}
+
+.raceInfo em{
+	font-style: normal;
 }
 
 #raceInfo1{color: #019943;}

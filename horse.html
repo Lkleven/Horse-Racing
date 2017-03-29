@@ -1,0 +1,56 @@
+<html>
+<head>
+        <title>jQuery Horse Racer</title>
+        
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+
+	<body id="race">
+		<h1>jQuery Horse Racer</h1>
+		<input type="button" value="Race!" id="go">
+		<input type="button" value="Reset" id="reset" class="disabled">
+
+		<div id="racetrack">
+			<img src="img/horse1_green.png" alt="Green horse" id="greenHorse" class="horse" height="125px">
+			<img src="img/horse1_orange.png" alt="Orange horse" id="orangeHorse" class="horse" height="125px">
+			<img src="img/horse1_red.png" alt="Red horse" id="redHorse" class="horse" height="125px">
+			<img src="img/horse1_blue.png" alt="Blue horse" id="blueHorse" class="horse" height="125px">
+		</div>
+
+		<div id="raceInfoContainer" class="clearfix">
+			<h2>Results</h2>
+			<div id="raceInfo1" class="raceInfo">Green Horse <span></span></div>
+			<div id="raceInfo2" class="raceInfo">Orange Horse <span></span></div>
+			<div id="raceInfo3" class="raceInfo">Red Horse <span></span></div>
+			<div id="raceInfo4" class="raceInfo">Blue Horse <span></span></div>
+		</div>
+
+
+
+
+
+
+
+
+	<!--jQuery CDN (Content Delivery Network) -->
+        <script
+            src="http://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+        </script>
+
+
+        <!-- If CDN fails to load, use the local jQuery -->
+        <script>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='js/jquery-3.2.0.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+        </script>
+
+        
+        <!-- -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

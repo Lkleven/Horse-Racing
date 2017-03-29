@@ -1,0 +1,76 @@
+body{
+	text-align: center;
+	background: #eee;
+}
+
+#racetrack{
+	//background: url("../img/track.png") center left repeat-x;
+	background: lightgreen;
+	height: 560px;
+	border-right: dashed 10px white;
+	box-sizing: border-box;
+	margin: 40px 0;
+}
+
+.horse{
+	display: block;
+	position: relative;
+	top: 30px;
+}
+
+#raceInfoContainer{
+	width: 80%;
+	margin: 40px auto 0;
+	background: #333;
+	height: 200px;
+}
+
+#raceInfoContainer h2{
+	color: white;
+	text-transform: uppercase;
+	border-bottom: solid 1px white;
+	padding: 20px 0;q
+}
+
+.raceInfo{
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	width: 25%;
+	float: left;
+}
+
+.raceInfo span{
+	display: block;
+	font-weigh: normal;
+	font-size: 18px;
+	color: white;
+}
+
+#raceInfo1{color: #019943;}
+#raceInfo2{color: #f29e02;}
+#raceInfo3{color: #ff023d;}
+#raceInfo4{color: #3b83ff;}
+
+input[type="button"]{
+	background: #019943;
+	color: white;
+	padding: 10px 20px;
+	border: solid 1px #444;
+}
+
+input#reset{
+	background: #f29e02;
+}
+
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.disabled{
+	opacity: 0.5;
+}
+
+
